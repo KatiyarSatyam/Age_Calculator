@@ -9,7 +9,7 @@ dob = st.date_input('Enter Your DOB',
       max_value= date.today(),
       value = date(2000, 1, 1))
 
-if st.button("Check Age"): 
+if st.button("Check Age"):
 
     today = date.today()
     age = relativedelta(today, dob)
